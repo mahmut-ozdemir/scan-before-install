@@ -1,0 +1,40 @@
+{
+  "potentiallyDangerousLibraries": [
+    {
+      "name": "eval()",
+      "risk": "Executes arbitrary code, allowing attackers to inject malicious scripts"
+    },
+    {
+      "name": "child_process",
+      "risk": "Spawns external processes, potentially opening security vulnerabilities"
+    },
+    {
+      "name": "os",
+      "risk": "Provides direct access to operating system functionalities"
+    },
+    {
+      "name": "shelljs",
+      "risk": "Executes shell commands directly, similar risks to child_process"
+    },
+    {
+      "name": "request",
+      "risk": "Performs HTTP requests without proper input validation"
+    },
+    {
+      "name": "fs",
+      "risk": "Provides access to file system operations"
+    },
+    {
+      "name": "crypto",
+      "risk": "Improper implementation can lead to encryption vulnerabilities"
+    },
+    {
+      "name": "bodyParser",
+      "risk": "Deprecated and vulnerable to parsing attacks"
+    },
+    {
+      "name": "debug",
+      "risk": "Debugging information can be leaked through logs"
+    }
+  ]
+}
