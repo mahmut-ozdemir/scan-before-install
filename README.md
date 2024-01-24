@@ -1,6 +1,7 @@
  # Scan Before Install
 
-This tool scans JavaScript projects for potentially dangerous libraries. It helps freelancers and developers identify and mitigate security risks in their projects.
+This tool scans JavaScript projects for potentially dangerous libraries. It helps freelancers and developers to identify security risks of outsourced projects.
+
 
 ## Features
 
